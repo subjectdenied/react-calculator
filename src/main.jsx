@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-var Routes = require('./Routes.jsx');
+var CalculatorPanel = require('./components/CalculatorPanel.jsx');
 
 ReactDOM.render(
-  Routes, document.getElementById('main')
+  <CalculatorPanel />, document.getElementById('main')
 );
